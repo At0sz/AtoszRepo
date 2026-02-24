@@ -5,10 +5,10 @@ import java.util.*;
 public class gyakorlas2_2 {
     static void main() {
 
-        List<Ingredient> inventory = Arrays.asList(
-                new Ingredient("Liszt", 2.0, "kg"),
-                new Ingredient("Tojas", 0, "db"),
-                new Ingredient("Tej", 1.5, "l")
+        List<Ingredient2> inventory = Arrays.asList(
+                new Ingredient2("Liszt", 2.0, "kg"),
+                new Ingredient2("Tojas", 0, "db"),
+                new Ingredient2("Tej", 1.5, "l")
         );
 
 
@@ -30,13 +30,13 @@ public class gyakorlas2_2 {
     }
 }
 
-class Ingredient {
+class Ingredient2 {
     String name;
     double amount;
     String unit;
 
 
-    public Ingredient(String name, double amount, String unit) {
+    public Ingredient2(String name, double amount, String unit) {
         this.name = name;
         this.amount = amount;
         this.unit = unit;
