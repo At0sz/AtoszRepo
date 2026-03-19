@@ -1,0 +1,209 @@
+🚀 Space Mission Control System
+
+Egy űrügynökség számítógépes rendszere kezeli az űrhajókat és a küldetéseket.
+
+A rendszerben vannak:
+
+Űrhajók (Spaceship)
+
+Űrhajósok (Astronaut)
+
+Küldetések (Mission)
+
+Egy küldetéshez maximum 5 űrhajós tartozhat.
+
+🎯 Enum – Role
+
+Minden űrhajósnak van szerepe.
+
+public enum Role {
+    PILOT,
+    ENGINEER,
+    SCIENTIST
+}
+🎯 Enum – Action
+
+A küldetés során az űrhajósok különböző műveleteket hajtanak végre.
+
+public enum Action {
+    FLY,
+    REPAIR,
+    RESEARCH
+}
+👨‍🚀 Astronaut (abstract class)
+
+Minden űrhajós:
+
+rendelkezik egyedi azonosítóval
+
+rendelkezik névvel
+
+tudja melyik küldetésen van
+
+A toString() formátum:
+
+Engineer 3 (Alex)
+Scientist 5 (Maria)
+
+Metódus:
+
+performAction()
+
+Ez visszaad egy Action enum értéket.
+
+👨‍🚀 Astronaut típusok
+Pilot
+
+Mindig:
+
+FLY
+Engineer
+
+Stratégia:
+
+round	action
+odd	REPAIR
+even	FLY
+Scientist
+
+Stratégia:
+
+round	action
+3-mal osztható	RESEARCH
+különben	REPAIR
+🚀 Mission class
+
+A Mission tárolja:
+
+missionName
+currentRound
+astronauts
+
+Maximum:
+
+5 astronaut
+Mission metódusok
+addAstronaut(Astronaut astronaut)
+
+hozzáadja a küldetéshez
+
+beállítja az astronaut mission-jét
+
+startMission()
+
+reset:
+
+round = 1
+processRound()
+
+Minden astronaut:
+
+1️⃣ meghívja performAction()
+2️⃣ ki kell írni:
+
+Engineer 2 performs REPAIR
+Scientist 3 performs RESEARCH
+
+A végén:
+
+Round finished: 1
+⚠️ Exception
+
+Készíts:
+
+NoAstronautException
+
+Ha a processRound() üres küldetésen fut.
+
+📊 Stream feladatok
+getAstronautsByRole()
+
+Visszatér:
+
+Map<Role, Long>
+
+Példa:
+
+PILOT -> 1
+ENGINEER -> 2
+SCIENTIST -> 1
+
+Használd:
+
+Collectors.groupingBy()
+getEngineers()
+
+Adja vissza az összes engineer-t.
+
+List<Astronaut>
+
+Használd:
+
+stream()
+filter()
+collect()
+getAstronautsSorted()
+
+Adja vissza az astronautokat ID szerint rendezve.
+
+Használd:
+
+sorted()
+Comparator
+🧪 Main program
+
+A main():
+
+1️⃣ létrehoz egy Mission-t
+
+Mars Mission
+
+2️⃣ létrehoz astronautokat
+
+1 Pilot
+2 Engineer
+1 Scientist
+
+3️⃣ hozzáadja őket a küldetéshez
+
+4️⃣ futtat 4 kört
+
+5️⃣ kiírja:
+
+Astronaut count by role:
+PILOT = 1
+ENGINEER = 2
+SCIENTIST = 1
+
+6️⃣ kiírja az engineer listát
+
+7️⃣ kiírja az astronautokat rendezve
+
+⭐ Extra nehezítés (ha keményíteni akarod)
+
+Adj az Action enumhoz logikát.
+
+Példa:
+
+public enum Action {
+
+    FLY {
+        public void execute(){
+            System.out.println("Flying the spaceship");
+        }
+    },
+
+    REPAIR {
+        public void execute(){
+            System.out.println("Repairing systems");
+        }
+    },
+
+    RESEARCH {
+        public void execute(){
+            System.out.println("Conducting research");
+        }
+    };
+
+    public abstract void execute();
+}
