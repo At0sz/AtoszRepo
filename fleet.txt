@@ -1,0 +1,2 @@
+Millennium Falcon;3000;100;Han Solo
+X-Wing;500;100;Luke Skywalker
