@@ -1,5 +1,9 @@
 package NeonGrid;
 
+import NeonGrid.Entities.DevSyndicate;
+import NeonGrid.Entities.Entity;
+import NeonGrid.Entities.EntityRegister;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;

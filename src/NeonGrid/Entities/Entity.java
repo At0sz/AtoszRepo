@@ -1,4 +1,4 @@
-package NeonGrid;
+package NeonGrid.Entities;
 
 import java.util.ArrayList;
 import java.util.List;

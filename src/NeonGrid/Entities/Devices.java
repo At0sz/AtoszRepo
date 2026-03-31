@@ -1,4 +1,4 @@
-package NeonGrid;
+package NeonGrid.Entities;
 
 public enum Devices {
     COFFEMAKER(0.5),

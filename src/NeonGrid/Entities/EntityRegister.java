@@ -1,4 +1,4 @@
-package NeonGrid;
+package NeonGrid.Entities;
 
 public class EntityRegister {
     private EntityRegister() {

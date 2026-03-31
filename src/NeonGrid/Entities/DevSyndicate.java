@@ -1,4 +1,4 @@
-package NeonGrid;
+package NeonGrid.Entities;
 
 public class DevSyndicate extends Entity{
     private double salaryOne;
