@@ -16,6 +16,12 @@ public class Main {
         paladinOne.basicAttack(assassinOne);
         assassinOne.castUltimate(paladinOne);
 
+        try {
+            assassinTwo.takeDamage(-50);
+        }catch (IllegalArgumentException e){
+            System.out.println(e.getMessage());
+        }
+
         System.out.println("All the heroes: ");
         arena.getAliveHeroes().forEach(System.out::println);
         System.out.println("\nHeroes by role: ");
