@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/sql-test.iml" filepath="$PROJECT_DIR$/sql-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AtoszRepo.iml" filepath="$PROJECT_DIR$/AtoszRepo.iml" />
     </modules>
   </component>
 </project>
