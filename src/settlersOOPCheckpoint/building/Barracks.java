@@ -1,10 +1,10 @@
-package settlersOOPCheckpoint.main.java.hu.progmasters.settlers.building;
+package settlersOOPCheckpoint.building;
 
 
-import settlersOOPCheckpoint.main.java.hu.progmasters.settlers.resource.Resource;
-import settlersOOPCheckpoint.main.java.hu.progmasters.settlers.resource.ResourceType;
-import settlersOOPCheckpoint.main.java.hu.progmasters.settlers.unit.Swordsman;
-import settlersOOPCheckpoint.main.java.hu.progmasters.settlers.unit.Unit;
+import settlersOOPCheckpoint.resource.Resource;
+import settlersOOPCheckpoint.resource.ResourceType;
+import settlersOOPCheckpoint.unit.Swordsman;
+import settlersOOPCheckpoint.unit.Unit;
 
 public class Barracks extends Building {
 

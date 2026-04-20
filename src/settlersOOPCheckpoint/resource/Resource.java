@@ -1,4 +1,4 @@
-package settlersOOPCheckpoint.main.java.hu.progmasters.settlers.resource;
+package settlersOOPCheckpoint.resource;
 
 public class Resource {
 

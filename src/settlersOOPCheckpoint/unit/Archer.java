@@ -1,4 +1,4 @@
-package settlersOOPCheckpoint.main.java.hu.progmasters.settlers.unit;
+package settlersOOPCheckpoint.unit;
 
 public class Archer extends Unit {
     public Archer() {

@@ -1,9 +1,9 @@
-package settlersOOPCheckpoint.main.java.hu.progmasters.settlers.building;
+package settlersOOPCheckpoint.building;
 
-import settlersOOPCheckpoint.main.java.hu.progmasters.settlers.resource.Resource;
-import settlersOOPCheckpoint.main.java.hu.progmasters.settlers.resource.ResourceType;
-import settlersOOPCheckpoint.main.java.hu.progmasters.settlers.unit.Archer;
-import settlersOOPCheckpoint.main.java.hu.progmasters.settlers.unit.Unit;
+import settlersOOPCheckpoint.resource.Resource;
+import settlersOOPCheckpoint.resource.ResourceType;
+import settlersOOPCheckpoint.unit.Archer;
+import settlersOOPCheckpoint.unit.Unit;
 
 public class Archery extends Building {
 

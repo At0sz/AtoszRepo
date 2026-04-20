@@ -1,8 +1,8 @@
-package settlersOOPCheckpoint.main.java.hu.progmasters.settlers;
+package settlersOOPCheckpoint;
 
-import settlersOOPCheckpoint.main.java.hu.progmasters.settlers.building.Archery;
-import settlersOOPCheckpoint.main.java.hu.progmasters.settlers.building.Barracks;
-import settlersOOPCheckpoint.main.java.hu.progmasters.settlers.building.Building;
+import settlersOOPCheckpoint.building.Archery;
+import settlersOOPCheckpoint.building.Barracks;
+import settlersOOPCheckpoint.building.Building;
 
 public class BuildingFactory {
 

@@ -1,4 +1,4 @@
-package settlersOOPCheckpoint.main.java.hu.progmasters.settlers;
+package settlersOOPCheckpoint;
 
 public class Main {
     public static void main(String[] args) {

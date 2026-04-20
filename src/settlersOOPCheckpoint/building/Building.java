@@ -1,7 +1,7 @@
-package settlersOOPCheckpoint.main.java.hu.progmasters.settlers.building;
+package settlersOOPCheckpoint.building;
 
-import settlersOOPCheckpoint.main.java.hu.progmasters.settlers.resource.Resource;
-import settlersOOPCheckpoint.main.java.hu.progmasters.settlers.unit.Unit;
+import settlersOOPCheckpoint.resource.Resource;
+import settlersOOPCheckpoint.unit.Unit;
 
 public abstract class Building {
 

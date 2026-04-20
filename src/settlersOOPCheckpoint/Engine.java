@@ -1,8 +1,8 @@
-package settlersOOPCheckpoint.main.java.hu.progmasters.settlers;
+package settlersOOPCheckpoint;
 
 
-import settlersOOPCheckpoint.main.java.hu.progmasters.settlers.userInterface.ConsoleUserInterface;
-import settlersOOPCheckpoint.main.java.hu.progmasters.settlers.userInterface.UserInterface;
+import settlersOOPCheckpoint.userInterface.ConsoleUserInterface;
+import settlersOOPCheckpoint.userInterface.UserInterface;
 
 public class Engine {
     private final Settlers settlers;

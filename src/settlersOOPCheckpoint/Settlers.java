@@ -9,14 +9,14 @@
  * Any dispute or claim arising out of the breach of these provisions shall be governed by and construed in accordance with the laws of Hungary.
  */
 
-package settlersOOPCheckpoint.main.java.hu.progmasters.settlers;
+package settlersOOPCheckpoint;
 
-import settlersOOPCheckpoint.main.java.hu.progmasters.settlers.building.Building;
-import settlersOOPCheckpoint.main.java.hu.progmasters.settlers.resource.Resource;
-import settlersOOPCheckpoint.main.java.hu.progmasters.settlers.resource.ResourceType;
-import settlersOOPCheckpoint.main.java.hu.progmasters.settlers.unit.Archer;
-import settlersOOPCheckpoint.main.java.hu.progmasters.settlers.unit.Swordsman;
-import settlersOOPCheckpoint.main.java.hu.progmasters.settlers.unit.Unit;
+import settlersOOPCheckpoint.building.Building;
+import settlersOOPCheckpoint.resource.Resource;
+import settlersOOPCheckpoint.resource.ResourceType;
+import settlersOOPCheckpoint.unit.Archer;
+import settlersOOPCheckpoint.unit.Swordsman;
+import settlersOOPCheckpoint.unit.Unit;
 
 import java.util.*;
 

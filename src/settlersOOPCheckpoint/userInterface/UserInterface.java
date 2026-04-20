@@ -1,4 +1,4 @@
-package settlersOOPCheckpoint.main.java.hu.progmasters.settlers.userInterface;
+package settlersOOPCheckpoint.userInterface;
 
 public interface UserInterface {
 
